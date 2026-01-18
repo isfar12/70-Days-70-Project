@@ -1,3 +1,8 @@
 /Face Mask Detection/data/
 /Handwritten Digit Recognition/data
 Traffic Sign Recognition/data/
+Object Detection for Vehicles/data/
+Object Detection for Vehicles/train/
+Object Detection for Vehicles/valid/
+Object Detection for Vehicles/runs/
+Object Detection for Vehicles/yolov8n-kitti/
