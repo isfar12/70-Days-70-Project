@@ -2,7 +2,7 @@ import cv2
 import os
 from ultralytics import YOLO
 
-video_path = os.path.join(os.path.dirname(__file__), "data/crowd_video_3.mp4")
+video_path = os.path.join(os.path.dirname(__file__), "data/crowd_video_2.mp4")
 
 # Open video file
 video = cv2.VideoCapture(video_path)
@@ -26,7 +26,7 @@ while True:
     resized_frame = cv2.resize(annotated_frame, None, fx=0.25, fy=0.25)
     # Add people counter text on frame
     cv2.putText(resized_frame, f"People Count: {people_count}", (10, 30),
-                cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 0), 2)
+                cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow("Crowd Video (press q to quit)", resized_frame)
 
