@@ -10,8 +10,8 @@ Human Activity Recognition/data/
 Plant Disease Detection/data/
 Pneumonia Detection/data/
 Crowd Estimation/data/
-Sentiment Analysis of Social Media/data/
-
+Sentiment Analysis of Review or Social Media/data/
+Fake News Detection/news/
 
 
 yolov8n.pt
